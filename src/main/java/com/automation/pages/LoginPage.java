@@ -10,7 +10,7 @@ public class LoginPage extends BaseBage {
     private final By usernameInputField = By.id("user-name");
     private final By passwordInputField = By.id("password");
     private final By loginButton = By.id("login-button");
-
+// this is comment for new commit
     public void enterUsername(String username) {
         logger.info("Entering username.");
         type(usernameInputField, username);

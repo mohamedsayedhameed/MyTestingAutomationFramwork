@@ -11,6 +11,7 @@ public class LoginPage extends BaseBage {
     private final By passwordInputField = By.id("password");
     private final By loginButton = By.id("login-button");
 // this is comment for new commit
+// anothe comment to test the hook
     public void enterUsername(String username) {
         logger.info("Entering username.");
         type(usernameInputField, username);
